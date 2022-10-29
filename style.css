@@ -1,0 +1,134 @@
+h3{
+    position: fixed;
+    top: 60px; 
+    left: 45%;
+    align-items: center;
+}
+.btns{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);   
+}
+
+.firebrickColor{
+    background-color:firebrick;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.cornflowerblueColor{
+    background-color:cornflowerblue;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.darkkhakiColor{
+    background-color:darkkhaki;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.pinkColor{
+    background-color:pink;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.chooseFont{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: aliceblue;
+}
+.paragraph{
+    width: 400px;
+    min-height: 100px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left:10px;
+    background-color:aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#verdFont{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cursFont{
+    font-family: cursive;
+}
+#gigiFont{
+    font-family: Gigi;
+}
+#papyrusFont{
+    font-family: Papyrus;
+}
+#onyxFont{
+    font-family: Onyx;
+}
+#stencilFont{
+    font-family: Stencil;
+}
+#vivaldiFont{
+    font-family: Vivaldi;
+}
+#ravieFont{
+    font-family: Ravie;
+}
+
+@media (max-width: 767px){
+    .btns{
+        position: absolute;
+        top: 25%;
+        left: 45%;
+    }
+    .paragraph{
+        top: 65%;
+        width: 80%;
+    }
+    h3{
+        top: 100px;
+        left: 30%;
+    }
+    .chooseFont{
+        top: 250px;
+        left: 150px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    .btns{
+        position: absolute;
+        top: 30%;
+        left: 45%;
+    }
+    .paragraph{
+        width: 70%;
+        height: 10%;
+    }
+    h3{
+        top: 300px;
+        left: 35%;
+    }
+    .chooseFont{
+        top: 500px;
+        left: 300px;
+    }
+}
